@@ -16,7 +16,7 @@
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
-    "chromedriver": "77.0.0",
+    "chromedriver": "78.0.1",
     "eslint": "6.6.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.5.0",
