@@ -1,11 +1,21 @@
 const { Builder, By, Key, until } = require("selenium-webdriver");
+const chrome = require("selenium-webdriver/chrome");
+
 require("chromedriver");
+
+const baseOptions = new chrome.Options();
+const chromeOptions = process.env.GITHUB_ACTIONS
+  ? baseOptions.headless()
+  : baseOptions;
 
 describe("google Search", () => {
   let browser;
 
   beforeAll(async () => {
-    browser = await new Builder().forBrowser("chrome").build();
+    browser = await new Builder()
+      .forBrowser("chrome")
+      .setChromeOptions(chromeOptions)
+      .build();
     browser.get("https://www.google.com");
   });
 
@@ -32,6 +42,6 @@ describe("google Search", () => {
 
     const title = await browser.getTitle();
     const words = title.split(" ");
-    expect(words[0]).toBe(true);
+    expect(words[0]).toBe("Cheese!");
   });
 });
