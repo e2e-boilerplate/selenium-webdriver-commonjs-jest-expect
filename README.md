@@ -1,12 +1,12 @@
-# selenium-webdriver (commonjs, jest)
+# selenium-webdriver (CommonJS, Jest and Expect)
 
-[![GitHub Actions status | e2e-boilerplates/selenium-webdriver-commonjs-jest](https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-jest/workflows/selenium-webdriver-commonjs-jest/badge.svg)](https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-jest/actions?workflow=selenium-webdriver-commonjs-jest)
+[![GitHub Actions status | e2e-boilerplates/selenium-webdriver-commonjs-jest-expect](https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-jest-expect/workflows/selenium-webdriver-commonjs-jest-expect/badge.svg)](https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-jest-expect/actions?workflow=selenium-webdriver-commonjs-jest-expect)
 
-selenium-webdriver end-to-end test automation boilerplate project. Using commonjs &amp; jest.
+selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jest and Expect
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/selenium-webdriver-commonjs-jest.git
-    cd selenium-webdriver-commonjs-jest
+    git clone git@github.com:e2e-boilerplates/selenium-webdriver-commonjs-jest-expect.git
+    cd selenium-webdriver-commonjs-jest-expect
     npm install
     npm run test

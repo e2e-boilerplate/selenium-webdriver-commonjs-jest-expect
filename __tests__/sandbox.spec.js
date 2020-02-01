@@ -26,8 +26,6 @@ describe("Sandbox", () => {
     const header = await browser.findElement(By.css("h1"));
 
     expect(title).toEqual("Sandbox");
-    header.getText().then(text => {
-      expect(text).toEqual("Sandbox");
-    });
+    expect(await header.getText()).toEqual("Sandbox");
   });
 });
