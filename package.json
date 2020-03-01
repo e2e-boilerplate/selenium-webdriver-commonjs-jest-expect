@@ -1,28 +1,13 @@
 {
-  "name": "selenium-webdriver-commonjs-jest-expect",
-  "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jest and Expect",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx jest"
-  },
-  "keywords": [
-    "selenium-webdriver",
-    "commonjs",
-    "jest",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jest and Expect",
   "devDependencies": {
     "chromedriver": "79.0.3",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "jest": "25.1.0",
@@ -34,5 +19,29 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "jest",
+    "selenium",
+    "selenium-webdriver",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "name": "selenium-webdriver-commonjs-jest-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/selenium-webdriver-commonjs-jest-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx jest"
+  },
+  "version": "1.0.0"
 }
