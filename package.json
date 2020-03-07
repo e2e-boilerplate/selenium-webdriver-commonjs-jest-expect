@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "description": "selenium-webdriver end-to-end test automation boilerplate, using CommonJS, Jest and Expect",
   "devDependencies": {
     "chromedriver": "79.0.3",
@@ -21,13 +21,8 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "commonjs",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "jest",
     "selenium",
     "selenium-webdriver",
