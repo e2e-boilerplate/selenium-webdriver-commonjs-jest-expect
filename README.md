@@ -6,7 +6,7 @@ Selenium-WebDriver end-to-end test automation boilerplate, using Commonjs, Jest 
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/selenium-webdriver-commonjs-jest-expect.git
-    	cd selenium-webdriver-commonjs-jest-expect
-    	npm install
-    	npm run test
+    	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-commonjs-jest-expect.git
+    	2. cd selenium-webdriver-commonjs-jest-expect
+    	3. npm install
+    	4. npm run test
