@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-commonjs-jest-expect](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jest-expect/workflows/selenium-webdriver-commonjs-jest-expect/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jest-expect/actions?workflow=selenium-webdriver-commonjs-jest-expect)
+[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-commonjs-jest-expect](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jest-expect/workflows/selenium-webdriver-commonjs-jest-expect/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jest-expect/actions?workflow=selenium-webdriver-commonjs-jest-expect) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Selenium-WebDriver Boilerplate
 
