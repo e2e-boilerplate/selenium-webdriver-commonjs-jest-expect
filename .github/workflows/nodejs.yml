@@ -1,5 +1,5 @@
 name: selenium-webdriver-commonjs-jest-expect
-"on":
+'on':
   push: null
   schedule:
     - cron: 50 5 1-31/2 * *
@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: "npm:install"
+      - name: 'npm:install'
         run: npm install
         env:
           CI: true
