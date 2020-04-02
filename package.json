@@ -23,7 +23,7 @@
   "homepage": "https://github.com/e2e-boilerplate/selenium-webdriver-commonjs-jest-expect#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "lint-staged"
     }
   },
   "keywords": [
@@ -39,6 +39,11 @@
     "selenium-webdriver"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
   "name": "selenium-webdriver-commonjs-jest-expect",
   "repository": {
     "type": "git",
