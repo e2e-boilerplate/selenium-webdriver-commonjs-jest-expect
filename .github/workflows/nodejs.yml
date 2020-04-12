@@ -2,7 +2,7 @@ name: selenium-webdriver-commonjs-jest-expect
 'on':
   push: null
   schedule:
-    - cron: 20 1 2-31/2 * *
+    - cron: 59 1 2-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
